@@ -13,3 +13,71 @@
  *= require_tree .
  *= require_self
  */
+html, body{
+    margin: 0;
+    padding: 0;
+    background: white;
+    color: DarkSlateGrey;
+    font-family: Tahoma, Verdana, sans-serif;
+    font-size: 10pt;
+}
+
+div#main{
+    margin: 0;
+    padding: 0 1.250em 1.250em; /* changed this so that it would adapt to any screen */
+}
+
+a {
+    background: transparent;
+    color: maroon;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+h1 {
+    color: maroon;
+    font-size: 150%;
+    font-style: italic;
+    display: block;
+    width: 100%;
+    border-bottom: 0.0625em solid DarkSlateGrey; /* changed this to ems*/
+}
+
+h1.title{
+    margin: 0 0 1em;
+    padding: 0.625em;
+    background-color: orange;
+    color: white;
+    border-bottom: 0.25em solid gold; /*changed this to ems as well*/
+    font-size: 2em;
+    font-style: normal;
+}
+
+table#movies{
+    margin: 0.625em; /*probs change this too*/
+    border-collapse: collapse;
+    width: 100%;
+    border-bottom: 0.125em solid black; /*changed this*/
+}
+
+table#movies th{
+    border: 0.125em solid white; /*changed this*/
+    font-weight: bold;
+    background-color: wheat;
+}
+table#movies th, table#movies td{
+    padding: 0.250em; /*made this change too*/
+    text-align: left;
+}
+
+#notice, #warning{
+    background: rosybrown;
+    margin: 1em 0;
+    padding: 0.250em;
+}
+form label{
+    display: block;
+    line-height: 1.5625em;
+    font-weight: bold;
+    color: maroon;
+}
