@@ -81,3 +81,7 @@ form label{
     font-weight: bold;
     color: maroon;
 }
+
+#notice, #warnign{
+    text-align: center;
+}
